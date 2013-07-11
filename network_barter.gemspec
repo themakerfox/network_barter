@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.authors     = ['Daniel Ansorg', 'Matthias Ansorg']
   spec.email       = 'matthias@ansorgs.de'
   spec.homepage    = 'http://edgeryders.eu/economy-app'
-  s.metadata = {
+  spec.metadata = {
       'Bug Tracker' => 'https://github.com/makerfoxnet/network_barter/issues',
       'Source Code' => 'https://github.com/makerfoxnet/network_barter'
   }
