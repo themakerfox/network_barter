@@ -1,0 +1,22 @@
+# List of files ignored by Git version control.
+# File format documentation: http://www.kernel.org/pub/software/scm/git/docs/gitignore.html
+# @author tanius
+
+.bundle
+
+# Ignore actual database content. Default line with no effect for Pricing Engine, which used MySQL only.
+db/*.sqlite3
+
+log/*
+tmp/*
+.sass-cache/*
+.env
+
+# Ignore YARD documentation; it's not "source", as every developer can generate it himself.
+doc/
+
+# Ignore RubyMine settings which are individual for every developer.
+.idea/
+
+# Ignore YARD cache directory; it's not "source", as YARD re-generates it if not existing.
+.yardoc/
