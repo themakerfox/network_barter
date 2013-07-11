@@ -1,7 +1,17 @@
+# Gem metadata.
+#
+# How to bundle this as a gem, install it locally for client apps, and publish it to rubygems.org:
+#   gem build network_barter.gemspec
+#   gem install ./network_barter-0.1.0.gem
+#   gem push network_barter-0.1.0.gem
+#
+# File format reference: http://guides.rubygems.org/specification-reference/
+#
+# @todo Add depedency information.
 Gem::Specification.new do |spec|
   # Essential metadata for gem system.
   spec.name        = 'network_barter'
-  spec.version     = '0.1.0.dev+1'
+  spec.version     = '0.1.0.pre1'
   spec.date        = '2013-07-11'
   spec.summary     = 'Library providing various implementations of the network barter algorithm.'
 
