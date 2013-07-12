@@ -8,8 +8,6 @@
 # rake application:trade:find_and_create -> Trade::create_trade -> NetworkBarter::find_trade_orders
 #
 # @author matthias
-# @todo Separate this out into a different RubyMine project, and have it included by Makerfox as a gem.
-# @todo Publish this as open source project.
 # @todo Add a way (also to the Rake task) how to select the algorithm implementation to use.
 # @todo Develop a generic interface between client applications and this gem. See how it's done in TradeGraph. Maybe a
 #   way to tell in parameters which tables and columns to use would be good?
