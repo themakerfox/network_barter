@@ -20,6 +20,7 @@
 Gem::Specification.new do |spec|
   # Essential metadata for gem system.
   spec.name        = 'network_barter'
+  # spec.rubyforge_project     = spec.name # @todo Enable once on RubyForge.
   spec.version     = '0.1.0.pre2'
   spec.date        = '2013-07-11'
   spec.summary     = 'Library providing various implementations of the network barter algorithm.'
@@ -28,12 +29,12 @@ Gem::Specification.new do |spec|
   spec.authors     = ['Daniel Ansorg', 'Matthias Ansorg']
   spec.email       = 'matthias@ansorgs.de'
   spec.homepage    = 'http://edgeryders.eu/economy-app'
-
-   # @todo Re-enable once RubyGems >=1.9.0 is available on Heroku.
-#  spec.metadata = {
-#      'Bug Tracker' => 'https://github.com/makerfoxnet/network_barter/issues',
-#      'Source Code' => 'https://github.com/makerfoxnet/network_barter'
-#  }
+  # @todo Re-enable once RubyGems >=1.9.0 is available on Heroku.
+  # spec.required_rubygems_version = ">= 1.9.0" # Due to using spec.metadata.
+  # spec.metadata = {
+  #     'Bug Tracker' => 'https://github.com/makerfoxnet/network_barter/issues',
+  #     'Source Code' => 'https://github.com/makerfoxnet/network_barter'
+  # }
 
   # Description.
   spec.description = <<-EOF
@@ -45,5 +46,4 @@ Gem::Specification.new do |spec|
   spec.files       = ["lib/network_barter.rb"]
   spec.require_path = '.'
   spec.require_paths << 'lib'
-  spec.required_rubygems_version = ">= 1.9.0" # Due to using spec.metadata.
 end
